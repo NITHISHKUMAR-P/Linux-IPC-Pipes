@@ -77,10 +77,9 @@ buff[n]='\0';
 printf("THE RESULTS OF CLIENTS ARE ...... \n"); write(1,buff,n);
 }
 ```
-## OUTPUT
-![output](./output3_1.png)
-
-## C Program that illustrate communication between two process using named pipes using Linux API system calls
+## OUTPUT:
+![output3_1](https://github.com/ezhilmathir/Linux-IPC-Pipes/assets/93427017/3d7570b4-184c-4618-8457-cd71f8a7f5bc)
+## C Program that illustrate communication between two process using named pipes using Linux API system calls:
 ```c
 //C Program that illustrate communication between two process using named pipes
 #include <unistd.h>
@@ -94,12 +93,12 @@ if (res == 0) printf("FIFO created\n");
 exit(EXIT_SUCCESS);
 }
 ```
-## OUTPUT
-![output](./output3_2.png)
+## OUTPUT:
+![output3_2](https://github.com/ezhilmathir/Linux-IPC-Pipes/assets/93427017/da09e0a6-0a5a-417a-8c9e-203ac5f1c728)
 ```
 $ ls -l /tmp/my_fifo
 ```
-## OUTPUT 
-![output](./output3_3.png)  
+## OUTPUT:
+![output3_3](https://github.com/ezhilmathir/Linux-IPC-Pipes/assets/93427017/4720cd2e-6988-44d8-a8e3-59a9adc23246)
 # RESULT:
 The program is executed successfully.
